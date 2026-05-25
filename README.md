@@ -1,15 +1,18 @@
 # retail-shelf-pipeline
+
 ## Overview
 End-to-end retail shelf analysis pipeline that runs, in order:
-- Object detection (yolo26n)
+- Object detection (YOLO)
 - Classification (EfficientNet)
 - Segmentation (YOLOv8-seg + classification)
 - OCR (YOLO + classification + EasyOCR)
 
-Part 1 architecture
-![image alt](https://github.com/SAMI7434/retail-shelf-pipeline/blob/b963723aa1cd902694300dc92240713f3515d124/Screenshot%202026-05-25%20193838.png)
-Part 2 architecture
-                                                                                         ![image alt](https://github.com/SAMI7434/retail-shelf-pipeline/blob/b1f46d692f98d238f976378440b88d68ce736b78/Screenshot%202026-05-25%20193928.png)
+## Architecture Diagrams
+Part 1 architecture:
+![architecture-1](https://github.com/SAMI7434/retail-shelf-pipeline/blob/main/Screenshot%202026-05-25%20193838.png)
+
+Part 2 architecture:
+![architecture-2](https://github.com/SAMI7434/retail-shelf-pipeline/blob/main/Screenshot%202026-05-25%20193928.png)
 
 
 ## Repository Structure
@@ -82,8 +85,6 @@ run_detection/run_classification/run_segmentation/run_ocr_pipeline directly.
 Record and include outputs for all three images:
 - model_performance.png (detection visualization)
 - prediction.png (classification visualization)
-
-- ![image alt](https://github.com/SAMI7434/retail-shelf-pipeline/blob/2e009d2a1a80e85757bf58c05c62be29dfe15356/download%20(3).png)
 - segmentation_result.png (segmentation KPI visualization)
 - shelf_ocr_result.png (OCR overlay visualization)
 
@@ -117,8 +118,3 @@ This repo generates and saves plots by default:
 - Prediction outputs on all three test images
 - Visualized prediction plots
 - Summary of assumptions, limitations, and tradeoffs
-
-
-                                                                                         
-
-                                                                                         
