@@ -82,6 +82,8 @@ run_detection/run_classification/run_segmentation/run_ocr_pipeline directly.
 Record and include outputs for all three images:
 - model_performance.png (detection visualization)
 - prediction.png (classification visualization)
+
+- ![image alt](https://github.com/SAMI7434/retail-shelf-pipeline/blob/2e009d2a1a80e85757bf58c05c62be29dfe15356/download%20(3).png)
 - segmentation_result.png (segmentation KPI visualization)
 - shelf_ocr_result.png (OCR overlay visualization)
 
@@ -115,6 +117,8 @@ This repo generates and saves plots by default:
 - Prediction outputs on all three test images
 - Visualized prediction plots
 - Summary of assumptions, limitations, and tradeoffs
+
+
                                                                                          
 
                                                                                          
