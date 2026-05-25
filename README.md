@@ -23,7 +23,8 @@ Part 2 architecture:
 - pipeline.py: orchestrates detection -> classification -> segmentation -> OCR
 - best.pt: YOLO weights (put your trained weights here)
 - best_efficientnet_b3.pth: classifier checkpoint
-
+only 10 class =['Bingo', 'Britannia', 'Cheetos', 'doritos',
+            'Kurkure', 'lays', 'Oreo', 'Parle', 'Pringles', 'Uncle Chipps']
 ## Setup
 1) Create a Python environment (3.10+ recommended).
 2) Install dependencies:
