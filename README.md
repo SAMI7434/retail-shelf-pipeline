@@ -1,7 +1,7 @@
 # retail-shelf-pipeline
 ## Overview
 End-to-end retail shelf analysis pipeline that runs, in order:
-- Object detection (YOLO)
+- Object detection (yolo26n)
 - Classification (EfficientNet)
 - Segmentation (YOLOv8-seg + classification)
 - OCR (YOLO + classification + EasyOCR)
