@@ -104,7 +104,8 @@ This repo generates and saves plots by default:
 - EasyOCR: robust, open-source OCR for price/weight extraction.
 - OpenCV + Matplotlib: reliable image IO and visualization.
 
-
+#outputs
+![image plt](https://github.com/SAMI7434/retail-shelf-pipeline/blob/c35d98bafb966dc839be06233de51afb31e9c4fd/output_images/Screenshot%202026-05-25%20032814.png)
 
 ## Assumptions, Limitations, and Tradeoffs
 - Assumes input images are clear shelf images with visible products and price tags.
