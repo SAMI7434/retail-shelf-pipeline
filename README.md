@@ -76,7 +76,7 @@ Use classification.train_classifier in classification.py. Example:
 from classification import train_classifier
 train_classifier(data_dir="/path/to/classification/dataset")
 ```
-https://colab.research.google.com/drive/1zrXWO5VSPrCI1HQiNJ6HkXrCoipDE6Lq#scrollTo=l6VrIXi5akVU
+colab-https://colab.research.google.com/drive/1zrXWO5VSPrCI1HQiNJ6HkXrCoipDE6Lq#scrollTo=l6VrIXi5akVU
 
 ## Prediction Outputs (All Three Test Images)
 Run inference on each of the three provided test images and save outputs.
